@@ -52,3 +52,18 @@ h1 {
   background-color: #888;
   color: white;
 }
+@media (max-width: 500px) {
+  .container {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .todo-input {
+    flex-direction: column;
+  }
+
+  .todo-input input,
+  .todo-input button {
+    width: 100%;
+  }
+}
