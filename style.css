@@ -35,3 +35,20 @@ h1 {
   display: flex;
   justify-content: space-between;
 }
+.dark-mode {
+  background: #333;
+  color: #fff;
+}
+
+.dark-mode .container {
+  background: #444;
+}
+
+.dark-mode #taskList li {
+  background: #666;
+}
+
+.dark-mode button {
+  background-color: #888;
+  color: white;
+}
